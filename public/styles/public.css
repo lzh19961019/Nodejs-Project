@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.over {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.valign {
+  text-align: center; }
+  .valign img {
+    vertical-align: middle; }
+  .valign:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+
+/*清除浮动*/
+.clear {
+  zoom: 1; }
+  .clear:before {
+    content: "";
+    display: table; }
+  .clear:after {
+    content: "";
+    clear: both;
+    display: block; }
+
+body {
+  font-size: 13px; }
+
+/*解决ie高度塌陷*/
+/*解决margin向上传递*/

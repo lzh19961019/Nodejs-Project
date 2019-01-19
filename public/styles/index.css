@@ -1,0 +1,1283 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+.margins {
+  width: 1100px;
+  margin: 0 auto; }
+
+.checkactive {
+  color: orange;
+  border-bottom: 2px solid orange; }
+
+body {
+  background: #f8f8f8;
+  font-size: 13px;
+  color: #666; }
+
+#yh {
+  width: 60px;
+  height: 120px;
+  position: fixed;
+  bottom: 199px;
+  right: -2px;
+  z-index: 99; }
+
+#kf {
+  width: 58px;
+  height: 58px;
+  position: fixed;
+  bottom: 138px;
+  right: 0px;
+  z-index: 99;
+  background: url(https://ecstore.oss-cn-hangzhou.aliyuncs.com/public/images/77/e8/03/da8a0f51b8386f92a555d1ba5ddd23d7ce2913d7.png?1495607750#h); }
+  #kf img {
+    position: absolute;
+    right: 0px;
+    display: none; }
+  #kf:hover img {
+    display: block; }
+
+#fk {
+  width: 58px;
+  height: 58px;
+  position: fixed;
+  bottom: 81px;
+  right: 0px;
+  z-index: 99;
+  background: url(https://ecstore.oss-cn-hangzhou.aliyuncs.com/public/images/da/7e/ff/8a9fa48245be71aa002e0a62c348fbd02ecf03bd.png?1497841763#h); }
+  #fk img {
+    position: absolute;
+    right: 0px;
+    display: none; }
+  #fk:hover img {
+    display: block; }
+
+#scrollTop {
+  display: none;
+  width: 58px;
+  height: 58px;
+  position: fixed;
+  bottom: 24px;
+  right: 0px;
+  z-index: 99;
+  background: url(https://ecstore.oss-cn-hangzhou.aliyuncs.com/public/images/fb/06/69/e514a78cdc593575a11c05236f025bd4d7f2b47b.png?1495607683#h); }
+  #scrollTop img {
+    position: absolute;
+    right: 0px;
+    display: none; }
+  #scrollTop:hover img {
+    display: block; }
+
+header {
+  background: #666;
+  height: 37px; }
+  header .top-l {
+    height: 36px;
+    float: left;
+    margin-left: 15px; }
+    header .top-l a {
+      font: 12px/36px "";
+      color: #fff; }
+  header .top-r {
+    height: 36px;
+    float: right;
+    margin-left: 15px;
+    font-size: 0; }
+    header .top-r a {
+      color: #fff;
+      margin: 0 5px;
+      font: 12px/36px ""; }
+    header .top-r span {
+      color: #fff;
+      font: 12px/36px ""; }
+
+nav {
+  height: 155px;
+  background: #fff;
+  position: relative; }
+  nav #nav-top {
+    height: 110px; }
+    nav #nav-top .logo {
+      display: block;
+      height: 67px;
+      width: 219px;
+      float: left;
+      margin-top: 10px; }
+    nav #nav-top .Shopcartwrap {
+      float: right;
+      position: relative;
+      top: 26%;
+      width: 160px;
+      height: 35px;
+      border: 1px solid #d2d2d2;
+      line-height: 35px;
+      text-align: center; }
+    nav #nav-top .searchThings {
+      float: right;
+      position: relative;
+      top: 26%;
+      left: -9%; }
+      nav #nav-top .searchThings ul.droplist {
+        z-index: 10;
+        position: absolute;
+        top: 35px;
+        list-style: none;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #ccc; }
+        nav #nav-top .searchThings ul.droplist li {
+          height: 25px;
+          padding-left: 10px;
+          background: #fff; }
+        nav #nav-top .searchThings ul.droplist li.active {
+          color: orange; }
+      nav #nav-top .searchThings .keywords {
+        width: 488px;
+        height: 33px;
+        line-height: 18px;
+        border: 1px solid #f18d00;
+        padding: 0 0 0 10px;
+        outline: 0;
+        background: none;
+        font-size: 14px;
+        outline: 0;
+        float: left;
+        color: #666; }
+      nav #nav-top .searchThings .btn_search {
+        border: none;
+        width: 50px;
+        height: 35px;
+        font-size: 14px;
+        overflow: hidden;
+        margin-left: -1px;
+        background: #f18d00;
+        color: #fff;
+        float: left;
+        line-height: 35px;
+        cursor: pointer;
+        margin-top: 0px;
+        border-left: 1px solid #f2f2f2;
+        padding-top: 5px; }
+  nav #nav-bottom .MenuLists li {
+    float: left;
+    margin-right: 0px;
+    font-size: 16px;
+    padding-left: 53px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    z-index: 3; }
+    nav #nav-bottom .MenuLists li a {
+      display: block;
+      color: #555; }
+      nav #nav-bottom .MenuLists li a:hover {
+        color: #f18d00;
+        height: 26px; }
+  nav #nav-bottom .MenuLists .first a {
+    display: block;
+    color: #f18d00;
+    width: 32px;
+    height: 26px;
+    border-bottom: 3px solid #f18d00; }
+  nav ol {
+    position: relative; }
+    nav ol li {
+      display: none;
+      width: 100%;
+      height: 248px;
+      background: #fff;
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      z-index: 10; }
+      nav ol li div {
+        text-align: center;
+        width: 164px;
+        height: 210px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px; }
+        nav ol li div img {
+          width: 164px;
+          height: 164px; }
+        nav ol li div p {
+          text-align: center;
+          color: orange;
+          font-size: 16px;
+          font-weight: bold; }
+      nav ol li div:nth-child(1) {
+        margin-left: 165px; }
+    nav ol li:nth-child(1) {
+      height: 0px; }
+    nav ol li:nth-child(9) {
+      height: 0px; }
+
+.swiper-container {
+  width: 100%;
+  height: 450px; }
+  .swiper-container .swiper-wrapper .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 450px; }
+  .swiper-container .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px; }
+
+#news {
+  height: 45px;
+  background: #fff; }
+  #news .margins {
+    overflow: hidden; }
+    #news .margins .news-l {
+      width: 600px;
+      height: 45px;
+      line-height: 45px;
+      overflow: hidden;
+      float: left; }
+    #news .margins .news-r {
+      height: 45px;
+      float: right; }
+      #news .margins .news-r ul li {
+        float: left;
+        margin-left: 20px; }
+
+main {
+  overflow: hidden; }
+  main div.pop-recomend {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    height: 360px;
+    margin-top: 34px; }
+    main div.pop-recomend .pop-recomend-span {
+      float: left;
+      font-size: 22px;
+      font-weight: 100; }
+    main div.pop-recomend .pop-recomend-a {
+      float: right;
+      font-size: 14px;
+      font-weight: 100;
+      color: #666; }
+      main div.pop-recomend .pop-recomend-a:hover {
+        color: orange; }
+    main div.pop-recomend .t1 {
+      width: 301px;
+      position: absolute;
+      left: 0px;
+      top: 34px; }
+      main div.pop-recomend .t1:hover {
+        box-shadow: -1px -1px 20px #c7c7c7;
+        padding: 0px;
+        transition: top 0.5s,box-shadow 0.8s;
+        top: 29px; }
+    main div.pop-recomend .t2 {
+      width: 386px;
+      height: 150px;
+      position: absolute;
+      left: 315px;
+      top: 34px; }
+      main div.pop-recomend .t2:hover {
+        box-shadow: -1px -1px 20px #c7c7c7;
+        padding: 0px;
+        transition: top 0.5s,box-shadow 0.8s;
+        top: 29px; }
+    main div.pop-recomend .t3 {
+      width: 386px;
+      height: 150px;
+      position: absolute;
+      left: 315px;
+      top: 195px; }
+      main div.pop-recomend .t3:hover {
+        box-shadow: -1px -1px 20px #c7c7c7;
+        padding: 0px;
+        transition: top 0.5s,box-shadow 0.8s;
+        top: 190px; }
+    main div.pop-recomend .t4 {
+      width: 386px;
+      height: 150px;
+      position: absolute;
+      left: 716px;
+      top: 34px; }
+      main div.pop-recomend .t4:hover {
+        box-shadow: -1px -1px 20px #c7c7c7;
+        padding: 0px;
+        transition: top 0.5s,box-shadow 0.8s;
+        top: 29px; }
+    main div.pop-recomend .t5 {
+      width: 386px;
+      height: 150px;
+      position: absolute;
+      left: 716px;
+      top: 195px; }
+      main div.pop-recomend .t5:hover {
+        box-shadow: -1px -1px 20px #c7c7c7;
+        padding: 0px;
+        transition: top 0.5s,box-shadow 0.8s;
+        top: 190px; }
+  main div.new-recomend {
+    width: 1100px;
+    height: 399px;
+    margin: 0 auto;
+    margin-top: 24px; }
+    main div.new-recomend h5 span:nth-child(2) {
+      opacity: .35;
+      display: block;
+      width: 31px;
+      height: 21px;
+      border: 1px solid #6d6d6d;
+      float: right;
+      background: url(https://ecstore.oss-cn-hangzhou.aliyuncs.com/public/images/86/7d/5c/548d1c55ef7e189af17cf1adf7e52b5aa8ace808.png?1522633749#h) center no-repeat; }
+    main div.new-recomend h5 span:nth-child(3) {
+      opacity: .35;
+      display: block;
+      width: 31px;
+      height: 21px;
+      border: 1px solid #6d6d6d;
+      float: right;
+      border-right: none;
+      background: url(https://ecstore.oss-cn-hangzhou.aliyuncs.com/public/images/3e/cf/98/c63a63adce4503d329ad281afee0d9ebec15a072.png?1522633748#h) center no-repeat; }
+    main div.new-recomend ul.new-goods {
+      margin-top: 14px;
+      width: 1100px;
+      height: 362px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      main div.new-recomend ul.new-goods li {
+        width: 264px;
+        height: 362px;
+        background: #fff; }
+        main div.new-recomend ul.new-goods li div {
+          text-align: center; }
+          main div.new-recomend ul.new-goods li div span:nth-child(1) {
+            display: inline-block;
+            width: 42px;
+            background: #fc4e6b;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            height: 21px;
+            line-height: 21px; }
+        main div.new-recomend ul.new-goods li a {
+          width: 264px;
+          height: 20px;
+          text-align: center;
+          margin-top: 12px;
+          display: inline-block;
+          color: #666;
+          font-size: 14px;
+          margin-top: 0px; }
+        main div.new-recomend ul.new-goods li a.te {
+          margin-top: 12px; }
+        main div.new-recomend ul.new-goods li p {
+          text-align: center;
+          color: orange;
+          font-size: 14px;
+          margin-top: 6px;
+          font-weight: bold; }
+    main div.new-recomend h5 {
+      height: 23px; }
+  main div.special-recomend {
+    width: 1100px;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main div.special-recomend h5 {
+      height: 23px; }
+    main div.special-recomend .sp-recomend-span {
+      float: left;
+      font-size: 22px;
+      font-weight: 100; }
+    main div.special-recomend .sp-recomend-a {
+      float: right;
+      font-size: 14px;
+      font-weight: 100;
+      color: #666; }
+      main div.special-recomend .sp-recomend-a:hover {
+        color: orange; }
+    main div.special-recomend ul.zhuanti {
+      margin-top: 14px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 1100px;
+      height: 264px; }
+      main div.special-recomend ul.zhuanti li {
+        position: relative;
+        top: 0; }
+        main div.special-recomend ul.zhuanti li:hover {
+          position: relative;
+          left: 0px;
+          box-shadow: -1px -1px 20px #c7c7c7;
+          top: -5px;
+          padding: 0px;
+          transition: top 0.8s,box-shadow 0.8s; }
+  main div.tabox-1 {
+    position: relative;
+    width: 1100px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main div.tabox-1 div.title {
+      height: 27px; }
+      main div.tabox-1 div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+        main div.tabox-1 div.title h2 span:nth-child(1) {
+          font-size: 12px;
+          font-weight: 100;
+          color: #999;
+          margin-left: 10px; }
+          main div.tabox-1 div.title h2 span:nth-child(1) span {
+            display: inline-block;
+            background: #d2d2d2;
+            width: 1px;
+            height: 18px;
+            margin: 0 8px; }
+      main div.tabox-1 div.title div.more a {
+        color: #666; }
+        main div.tabox-1 div.title div.more a:hover {
+          color: orange; }
+      main div.tabox-1 div.title ul.chanlist li:nth-child(1) {
+        float: left;
+        list-style: none;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+      main div.tabox-1 div.title ul.chanlist li:nth-child(2) {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+    main div.tabox-1 div.check2 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: none; }
+      main div.tabox-1 div.check2 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-1 div.check2 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-1 div.check2 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-1 div.check2 ul.machine-list li div {
+            width: 264px;
+            text-align: center;
+            text-align: center; }
+            main div.tabox-1 div.check2 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-1 div.check2 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-1 div.check2 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-1 div.check2 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+    main div.tabox-1 div.check1 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: block; }
+      main div.tabox-1 div.check1 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-1 div.check1 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-1 div.check1 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-1 div.check1 ul.machine-list li div {
+            width: 264px;
+            text-align: center; }
+            main div.tabox-1 div.check1 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-1 div.check1 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-1 div.check1 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-1 div.check1 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+  main div.tabox-2 {
+    position: relative;
+    width: 1100px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main div.tabox-2 div.title {
+      height: 27px; }
+      main div.tabox-2 div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+        main div.tabox-2 div.title h2 span:nth-child(1) {
+          font-size: 12px;
+          font-weight: 100;
+          color: #999;
+          margin-left: 10px; }
+          main div.tabox-2 div.title h2 span:nth-child(1) span {
+            display: inline-block;
+            background: #d2d2d2;
+            width: 1px;
+            height: 18px;
+            margin: 0 8px; }
+      main div.tabox-2 div.title div.more a {
+        color: #666; }
+        main div.tabox-2 div.title div.more a:hover {
+          color: orange; }
+      main div.tabox-2 div.title ul.chanlist li:nth-child(1) {
+        float: left;
+        list-style: none;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+      main div.tabox-2 div.title ul.chanlist li:nth-child(2) {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+    main div.tabox-2 div.check2 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: none; }
+      main div.tabox-2 div.check2 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-2 div.check2 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-2 div.check2 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-2 div.check2 ul.machine-list li div {
+            width: 264px;
+            text-align: center;
+            text-align: center; }
+            main div.tabox-2 div.check2 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-2 div.check2 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-2 div.check2 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-2 div.check2 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+    main div.tabox-2 div.check1 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: block; }
+      main div.tabox-2 div.check1 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-2 div.check1 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-2 div.check1 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-2 div.check1 ul.machine-list li div {
+            width: 264px;
+            text-align: center; }
+            main div.tabox-2 div.check1 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-2 div.check1 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-2 div.check1 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-2 div.check1 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+  main .tabox-3 {
+    width: 1100px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main .tabox-3 div.title {
+      height: 27px; }
+      main .tabox-3 div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+        main .tabox-3 div.title h2 span:nth-child(1) {
+          font-size: 12px;
+          font-weight: 100;
+          color: #999;
+          margin-left: 10px; }
+          main .tabox-3 div.title h2 span:nth-child(1) span {
+            display: inline-block;
+            background: #d2d2d2;
+            width: 1px;
+            height: 18px;
+            margin: 0 8px; }
+      main .tabox-3 div.title div.more a {
+        color: #666; }
+        main .tabox-3 div.title div.more a:hover {
+          color: orange; }
+    main .tabox-3 div.banner {
+      margin-top: 14px; }
+    main .tabox-3 ul.key-list {
+      width: 1100px;
+      height: 360px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 14px; }
+      main .tabox-3 ul.key-list li {
+        width: 264px;
+        height: 360px;
+        background: #fff;
+        position: relative;
+        top: 0; }
+        main .tabox-3 ul.key-list li:hover {
+          position: relative;
+          left: 0px;
+          box-shadow: -1px -1px 20px #c7c7c7;
+          top: -5px;
+          padding: 0px;
+          transition: top 0.8s,box-shadow 0.8s; }
+        main .tabox-3 ul.key-list li div {
+          width: 264px;
+          text-align: center;
+          text-align: center; }
+          main .tabox-3 ul.key-list li div span:nth-child(1) {
+            display: inline-block;
+            width: 42px;
+            background: #fc4e6b;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            height: 21px;
+            line-height: 21px; }
+          main .tabox-3 ul.key-list li div span:nth-child(2) {
+            display: inline-block;
+            width: 42px;
+            background: #f7732c;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            height: 21px;
+            line-height: 21px;
+            margin-left: 8px; }
+        main .tabox-3 ul.key-list li a {
+          width: 264px;
+          height: 20px;
+          text-align: center;
+          margin-top: 12px;
+          display: inline-block;
+          color: #666;
+          font-size: 14px; }
+        main .tabox-3 ul.key-list li p {
+          text-align: center;
+          color: orange;
+          font-size: 14px;
+          margin-top: 6px;
+          font-weight: bold; }
+  main div.tabox-4 {
+    position: relative;
+    width: 1100px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main div.tabox-4 div.title {
+      height: 27px; }
+      main div.tabox-4 div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+        main div.tabox-4 div.title h2 span:nth-child(1) {
+          font-size: 12px;
+          font-weight: 100;
+          color: #999;
+          margin-left: 10px; }
+          main div.tabox-4 div.title h2 span:nth-child(1) span {
+            display: inline-block;
+            background: #d2d2d2;
+            width: 1px;
+            height: 18px;
+            margin: 0 8px; }
+      main div.tabox-4 div.title div.more a {
+        color: #666; }
+        main div.tabox-4 div.title div.more a:hover {
+          color: orange; }
+      main div.tabox-4 div.title ul.chanlist li:nth-child(1) {
+        float: left;
+        list-style: none;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+      main div.tabox-4 div.title ul.chanlist li:nth-child(2) {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer; }
+    main div.tabox-4 div.check2 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: none; }
+      main div.tabox-4 div.check2 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-4 div.check2 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-4 div.check2 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-4 div.check2 ul.machine-list li div {
+            width: 264px;
+            text-align: center;
+            text-align: center; }
+            main div.tabox-4 div.check2 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-4 div.check2 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-4 div.check2 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-4 div.check2 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+    main div.tabox-4 div.check1 {
+      margin-top: 14px;
+      position: absolute;
+      left: 0px;
+      top: 22px;
+      display: block; }
+      main div.tabox-4 div.check1 ul.machine-list {
+        width: 1100px;
+        height: 360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 14px; }
+        main div.tabox-4 div.check1 ul.machine-list li {
+          width: 264px;
+          height: 360px;
+          background: #fff;
+          position: relative;
+          top: 0; }
+          main div.tabox-4 div.check1 ul.machine-list li:hover {
+            position: relative;
+            left: 0px;
+            box-shadow: -1px -1px 20px #c7c7c7;
+            top: -5px;
+            padding: 0px;
+            transition: top 0.8s,box-shadow 0.8s; }
+          main div.tabox-4 div.check1 ul.machine-list li div {
+            width: 264px;
+            text-align: center; }
+            main div.tabox-4 div.check1 ul.machine-list li div span:nth-child(1) {
+              display: inline-block;
+              width: 42px;
+              background: #fc4e6b;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px; }
+            main div.tabox-4 div.check1 ul.machine-list li div span:nth-child(2) {
+              display: inline-block;
+              width: 42px;
+              background: #f7732c;
+              color: white;
+              font-size: 12px;
+              text-align: center;
+              height: 21px;
+              line-height: 21px;
+              margin-left: 8px; }
+          main div.tabox-4 div.check1 ul.machine-list li a {
+            width: 264px;
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            display: inline-block;
+            color: #666;
+            font-size: 14px; }
+          main div.tabox-4 div.check1 ul.machine-list li p {
+            text-align: center;
+            color: orange;
+            font-size: 14px;
+            margin-top: 6px;
+            font-weight: bold; }
+  main div.tabox-5 {
+    width: 1100px;
+    height: 730px;
+    margin: 0 auto;
+    margin-top: 34px; }
+    main div.tabox-5 div.title {
+      height: 27px; }
+      main div.tabox-5 div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+        main div.tabox-5 div.title h2 span:nth-child(1) {
+          font-size: 12px;
+          font-weight: 100;
+          color: #999;
+          margin-left: 10px; }
+          main div.tabox-5 div.title h2 span:nth-child(1) span {
+            display: inline-block;
+            background: #d2d2d2;
+            width: 1px;
+            height: 18px;
+            margin: 0 8px; }
+      main div.tabox-5 div.title div.more a {
+        color: #666; }
+        main div.tabox-5 div.title div.more a:hover {
+          color: orange; }
+    main div.tabox-5 div.banner {
+      margin-top: 14px; }
+    main div.tabox-5 ul.key-list {
+      width: 1100px;
+      height: 360px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 14px; }
+      main div.tabox-5 ul.key-list li {
+        width: 264px;
+        height: 360px;
+        background: #fff;
+        position: relative;
+        top: 0; }
+        main div.tabox-5 ul.key-list li:hover {
+          position: relative;
+          left: 0px;
+          box-shadow: -1px -1px 20px #c7c7c7;
+          top: -5px;
+          padding: 0px;
+          transition: top 0.8s,box-shadow 0.8s; }
+        main div.tabox-5 ul.key-list li div {
+          width: 264px;
+          text-align: center;
+          text-align: center; }
+          main div.tabox-5 ul.key-list li div span:nth-child(1) {
+            display: inline-block;
+            width: 42px;
+            background: #fc4e6b;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            height: 21px;
+            line-height: 21px; }
+          main div.tabox-5 ul.key-list li div span:nth-child(2) {
+            display: inline-block;
+            width: 42px;
+            background: #f7732c;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            height: 21px;
+            line-height: 21px;
+            margin-left: 8px; }
+        main div.tabox-5 ul.key-list li a {
+          width: 264px;
+          height: 20px;
+          text-align: center;
+          margin-top: 12px;
+          display: inline-block;
+          color: #666;
+          font-size: 14px; }
+        main div.tabox-5 ul.key-list li p {
+          text-align: center;
+          color: orange;
+          font-size: 14px;
+          margin-top: 6px;
+          font-weight: bold; }
+  main div.hot {
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px; }
+    main div.hot div.title {
+      height: 49px; }
+      main div.hot div.title h2 {
+        float: left;
+        font-size: 22px;
+        font-weight: 100; }
+    main div.hot div.hot-1 {
+      font-size: 0;
+      width: 263px;
+      height: 420px;
+      float: left;
+      background: #fff;
+      position: relative;
+      top: 0; }
+      main div.hot div.hot-1:hover {
+        position: relative;
+        left: 0px;
+        box-shadow: -1px -1px 20px #c7c7c7;
+        top: -5px;
+        padding: 0px;
+        transition: top 0.8s,box-shadow 0.8s; }
+      main div.hot div.hot-1 div.chat {
+        overflow: hidden;
+        font-size: 14px;
+        height: 95px;
+        margin: 12px 0 0 20px;
+        height: 95px; }
+        main div.hot div.hot-1 div.chat ul {
+          margin-top: 0px; }
+          main div.hot div.hot-1 div.chat ul li {
+            overflow: hidden;
+            color: #333;
+            height: 95px;
+            line-height: 20px;
+            font-size: 14px;
+            width: 220px;
+            -webkit-line-clamp: 3;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-box-orient: vertical; }
+            main div.hot div.hot-1 div.chat ul li p {
+              width: 95px;
+              color: #aaa;
+              font-size: 14px;
+              margin-bottom: 15px; }
+    main div.hot div.hot-2 {
+      width: 263px;
+      height: 420px;
+      float: left;
+      margin-left: 16px;
+      background: #fff;
+      top: 0;
+      position: relative; }
+      main div.hot div.hot-2:hover {
+        position: relative;
+        left: 0px;
+        box-shadow: -1px -1px 20px #c7c7c7;
+        top: -5px;
+        padding: 0px;
+        transition: top 0.8s,box-shadow 0.8s; }
+      main div.hot div.hot-2 div.chat {
+        overflow: hidden;
+        font-size: 14px;
+        height: 95px;
+        margin: 12px 0 0 20px;
+        height: 95px; }
+        main div.hot div.hot-2 div.chat ul {
+          margin-top: 0px; }
+          main div.hot div.hot-2 div.chat ul li {
+            overflow: hidden;
+            color: #333;
+            height: 95px;
+            line-height: 20px;
+            font-size: 14px;
+            width: 220px;
+            -webkit-line-clamp: 3;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-box-orient: vertical; }
+            main div.hot div.hot-2 div.chat ul li p {
+              width: 95px;
+              color: #aaa;
+              font-size: 14px;
+              margin-bottom: 15px; }
+    main div.hot div.hot-3 {
+      width: 263px;
+      height: 420px;
+      float: left;
+      margin-left: 16px;
+      background: #fff;
+      top: 0;
+      position: relative; }
+      main div.hot div.hot-3:hover {
+        position: relative;
+        left: 0px;
+        box-shadow: -1px -1px 20px #c7c7c7;
+        top: -5px;
+        padding: 0px;
+        transition: top 0.8s,box-shadow 0.8s; }
+      main div.hot div.hot-3 div.chat {
+        overflow: hidden;
+        font-size: 14px;
+        height: 95px;
+        margin: 12px 0 0 20px;
+        height: 95px; }
+        main div.hot div.hot-3 div.chat ul {
+          margin-top: 0px; }
+          main div.hot div.hot-3 div.chat ul li {
+            overflow: hidden;
+            color: #333;
+            height: 95px;
+            line-height: 20px;
+            font-size: 14px;
+            width: 220px;
+            -webkit-line-clamp: 3;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-box-orient: vertical; }
+            main div.hot div.hot-3 div.chat ul li p {
+              width: 95px;
+              color: #aaa;
+              font-size: 14px;
+              margin-bottom: 15px; }
+    main div.hot div.hot-4 {
+      width: 263px;
+      height: 420px;
+      float: left;
+      margin-left: 16px;
+      background: #fff;
+      top: 0;
+      position: relative; }
+      main div.hot div.hot-4:hover {
+        position: relative;
+        left: 0px;
+        box-shadow: -1px -1px 20px #c7c7c7;
+        top: -5px;
+        padding: 0px;
+        transition: top 0.8s,box-shadow 0.8s; }
+      main div.hot div.hot-4 div.chat {
+        overflow: hidden;
+        font-size: 14px;
+        height: 95px;
+        margin: 12px 0 0 20px;
+        height: 95px; }
+        main div.hot div.hot-4 div.chat ul {
+          margin-top: 0px; }
+          main div.hot div.hot-4 div.chat ul li {
+            overflow: hidden;
+            color: #333;
+            height: 95px;
+            line-height: 20px;
+            font-size: 14px;
+            width: 220px;
+            -webkit-line-clamp: 3;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-box-orient: vertical; }
+            main div.hot div.hot-4 div.chat ul li p {
+              width: 95px;
+              color: #aaa;
+              font-size: 14px;
+              margin-bottom: 15px; }
+  main div.aboutus {
+    margin-top: 8px; }
+    main div.aboutus img {
+      display: block; }
+
+div#foot-t {
+  margin-top: 60px;
+  border: #e5e5e5 1px solid; }
+
+footer {
+  width: 1120px;
+  height: 158px;
+  margin: 0 auto;
+  margin-top: 25px; }
+  footer div.foota {
+    float: left;
+    width: 175px; }
+    footer div.foota h3 a {
+      color: #666;
+      line-height: 22px; }
+    footer div.foota ul.news-list li {
+      line-height: 22px; }
+      footer div.foota ul.news-list li a {
+        color: #666; }
+  footer div.phone {
+    float: right;
+    margin-right: 10px; }
+
+div#bottom {
+  overflow: hidden;
+  height: 80px;
+  margin-top: 10px;
+  background: #fafafa; }
+  div#bottom p {
+    text-align: center; }
